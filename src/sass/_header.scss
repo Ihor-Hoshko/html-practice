@@ -1,0 +1,40 @@
+.header {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 97px;
+  padding-left: 97px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+color: #CBCBCB;
+text-transform: uppercase;
+}
+
+.navigation_list {
+  display: flex;
+}
+
+.navigation_item {
+  border: 1px solid #BFE55E;
+  border-radius: 30px;
+  padding: 9px 27px 9px 27px;
+}
+
+.navigation_item:not(:last-child) {
+  margin-right: 40px;
+}
+.navigation_link {
+  font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}

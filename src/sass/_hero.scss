@@ -1,0 +1,29 @@
+.hero {
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-right: 96px;
+    padding-left: 96px;
+    
+}
+
+.hero_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 130px;
+    line-height: 156px;
+    text-transform: uppercase;
+    color: #BFE55E;
+}
+
+.hero_text {
+    font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 44px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
