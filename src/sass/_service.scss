@@ -1,0 +1,46 @@
+.service_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #BFE55E;
+    margin-right: 390px;
+    
+}
+
+.service_text {
+    width: 570px;
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-transform: uppercase;
+color: #CBCBCB;
+}
+
+.service_thumb {
+    display: flex;
+    margin-top: 170px;
+    margin-left: 97px;
+    margin-bottom: 70px;
+}
+
+.service_link {
+    font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+margin-left: 50px;
+}
+
+.service_link::before {
+    content: "";
+    display: block;
+    width: 1240px;
+height: 0px;
+border: 1px solid #F3FFCE;
+margin-top: 50px;
+margin-bottom: 50px;
+}
